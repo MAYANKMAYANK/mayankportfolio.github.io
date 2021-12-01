@@ -123,6 +123,33 @@ width:200px;
 #width:200px;
 }
 }
+#gmimg
+{
+animation-name:gmailimg;
+animation-duration:5s;
+#animation-direction:alternate;
+animation-iteration-count:infinite;
+}
+@keyframes gmailimg
+{
+0%{
+transform:rotate(0deg);
+#height:120%;
+#width:100%;
+}
+50%{
+transform:rotate(360deg);
+#height:125%;
+#width:105%;
+#box-shadow:0px 0px 10px 10px silver;
+
+}
+100%{
+transform:rotate(0deg);
+#height:120%;
+#width:100%;
+}
+}
 </style>
 </head>
 <body oncontextmenu="return false">
@@ -153,7 +180,7 @@ width:200px;
 		<h4 style="font-size:22px;font-family:robot;color:silver;"><img src="github.gif" height="35px" style="border-radius:50%;" width="35px"></h4></a>
 	 </li>  <li class="nav-item">
         <a class="nav-link pr-1" href="https://mail.google.com/">
-		<h4 style="font-size:22px;font-family:robot;color:silver;"><img src="gmail.png" height="35px" style="border-radius:50%;" width="35px"></h4></a>
+		<h4 style="font-size:22px;font-family:robot;color:silver;"><img src="gmail.png" id="gmimg" height="35px" style="border-radius:50%;background-color:white;" width="35px"></h4></a>
 	</li>  <li class="nav-item">
         <a class="nav-link pr-1" href="https://web.whatsapp.com/">
 		<h4 style="font-size:22px;font-family:robot;color:silver;"><img src="whatsapp.gif" height="35px" style="border-radius:22%;" width="35px"></h4></a>
